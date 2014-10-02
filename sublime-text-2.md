@@ -1,5 +1,3 @@
-### default-settings
-
 ### user-settings
 ```
 {
@@ -17,3 +15,14 @@
   "vintage_ctrl_keys": true
 }
 ```
+
+### Packages in use
+- SublimeCodeIntel
+- Alignment
+- Git
+- Markdown Preview
+- TrailingSpaces
+- CoffeeScript
+  - `git clone git://github.com/jashkenas/coffee-script-tmbundle CoffeeScript && cp -r CoffeeScript/ ~/.config/sublime-text-2/Packages/`
+- Stylus
+  - `git clone https://github.com/LearnBoost/stylus.git Stylus && cp -r Stylus/ ~/.config/sublime-text-2/Packages/`
