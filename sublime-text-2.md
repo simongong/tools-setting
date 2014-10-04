@@ -9,10 +9,12 @@
   [
   ],
   "open_files_in_new_window": false,
-  "shift_tab_unindent": true,
+  "shift_tab_unindent": true, // `shift + tab` for unindent
   "tab_size": 2,
   "translate_tabs_to_spaces": true,
-  "vintage_ctrl_keys": true
+  "vintage_ctrl_keys": true,  // Enable `vim` shortcuts
+  "hot_exit": false,  // Do not auto-save the current project
+  "remember_open_files": false  // Do not open the previous project
 }
 ```
 
