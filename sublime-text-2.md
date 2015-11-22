@@ -3,7 +3,7 @@
 {
   "bold_folder_labels": true,
   "fade_fold_buttons": false,
-  "font_size": 10.0,
+  "font_size": 14.0,
   "highlight_line": true,
   "ignored_packages":
   [
@@ -20,14 +20,13 @@
     80,
     120
   ],
-  "shift_tab_unindent": true,
-  "tab_size": 2,
-  "translate_tabs_to_spaces": true,
-  "vintage_ctrl_keys": true,
   "ensure_newline_at_eof_on_save": true,
   "trim_trailing_white_space_on_save": true,
   "tab_completion": false,
-  "highlight_modified_tabs": true
+  "highlight_modified_tabs": true,
+  "color_scheme": "Packages/Oceanic Next Color Scheme/Oceanic Next.tmTheme",
+  "preview_on_click": false,
+  "find_selected_text": true
 }
 ```
 
@@ -53,7 +52,8 @@
 You can create your preferred template in Sublime if you have `SublimeTmpl` installed.
 
 Here is what you should do to create a template:
-1. Create a template file at `Users/you/Library/Application\ Support/Sublime\ Text\ 3/Packages/SublimeTmpl\templates`. Let's say, `dailynode.tmpl`.
+
+- Create a template file at `Users/you/Library/Application\ Support/Sublime\ Text\ 3/Packages/SublimeTmpl\templates`. Let's say, `dailynode.tmpl`.
 ```
 * what I've done today
     *
@@ -66,7 +66,7 @@ Here is what you should do to create a template:
 * others
     *
 ```
-2. Edit config files at SublimeTmpl package folder: `Default.sublime-commands`, `Default.sublime-keymap`, `Main.sublime-menu`, `sublime-tmpl.py` as what default items do. For example, setting a shortcut in `Default.sublime-keymap` goes like
+- Edit config files at SublimeTmpl package folder: `Default.sublime-commands`, `Default.sublime-keymap`, `Main.sublime-menu`, `sublime-tmpl.py` as what default items do. For example, setting a shortcut in `Default.sublime-keymap` goes like
 ```
 {
     "keys": ["ctrl+alt+n"], "command": "sublime_tmpl",
@@ -77,7 +77,7 @@ Here is what you should do to create a template:
 ### Code Snippet
 You can create a code snippet in Sublime and attach a shortcut to it.
 
-1. Click `Tools -> new snippet...` in menubar, and edit you own snippet like:
+- Click `Tools -> new snippet...` in menubar, and edit you own snippet like:
 ```
 <snippet>
   <content><![CDATA[
@@ -123,8 +123,8 @@ module.exports = ${1:componentName};
   <tabTrigger>React.create</tabTrigger>
 </snippet>
 ```
-2. Save it at `/Users/you/Library/Application Support/Sublime Text 2/Packages/User` and name it like `react-component.sublime-snippet`
-3. Then whenever you type `React.create` in Sublime, press `Tab` and you will have the snippet above added in.
+- Save it at `/Users/you/Library/Application Support/Sublime Text 2/Packages/User` and name it like `react-component.sublime-snippet`
+- Then whenever you type `React.create` in Sublime, press `Tab` and you will have the snippet above added in.
 
 ### ESlint
 1. Install package: SublimeLinter ESLint
