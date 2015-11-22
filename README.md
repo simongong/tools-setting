@@ -1,18 +1,18 @@
 ### README
 
-This is a repo of notes for those things I'm currently using or ever used.
+This is a repo for tools I'm currently using or have ever used.
 
 Files in this repo consists of two parts:
 
-- a collection of the settings for dev tools
-- a collection of shell script to do some jobs
+- Setting/Configuration/Usage of dev tools
+- Shell script to do some jobs
 
-### Settings
+### Dev Tools
 
 - [Sublime Text 2](https://github.com/simongong/tools-setting/blob/master/sublime-text-2.md)
-- [vim](https://github.com/simongong/tools-setting/blob/master/vimrc.local.md)
-- [vim color scheme](https://github.com/simongong/tools-setting/blob/master/tangoshady.vim.md)
-- [git](https://github.com/simongong/tools-setting/blob/master/.gitconfig.md)
+- [Vim](https://github.com/simongong/tools-setting/blob/master/vimrc.local.md)
+- [Vim Color Scheme](https://github.com/simongong/tools-setting/blob/master/tangoshady.vim.md)
+- [Git](https://github.com/simongong/tools-setting/blob/master/.gitconfig.md)
 
 ### Scripts
 - [sync-dropbox](https://github.com/simongong/tools-setting/blob/master/sync-dropbox.sh)
